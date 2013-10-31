@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+
+</head>
+<body>
+
+
+ <table border="1" style="width:600px;" align="center">
+
+{% for imgpath in nl_table %}
+<tr>
+<td>{{imgpath.0}}</td>
+<td>{{imgpath.1}}</td>
+<td>{{imgpath.2}}</td>
+</tr>
+{% endfor %}
+
+</table>
+</body>
+</html>
